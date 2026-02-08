@@ -57,7 +57,7 @@ export default function Navbar() {
       </ul>
 
       <motion.a 
-        href="https://drive.google.com/file/d/18za3NhF8qxcx1k3ACUmjPMyDx0FkeKY0/view"
+        href="https://drive.google.com/file/d/1gBGXYrQYmt83MdUSHeLHwRYLZcprQRl9/view"
         target="_blank"
         rel="noopener noreferrer"
         className="navbar-cta"
