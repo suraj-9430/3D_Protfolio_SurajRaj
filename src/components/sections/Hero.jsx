@@ -60,18 +60,20 @@ export default function Hero() {
         </motion.h1>
 
         <motion.h2 className="hero-title" variants={itemVariants}>
-          Fullstack <span>Developer</span> | MEAN Stack
+          Full Stack <span>Developer</span>
         </motion.h2>
 
         <motion.p className="hero-description" variants={itemVariants}>
-          Clean design. Scalable code. Meaningful results. I turn ideas into 
-          scalable software with expertise in Angular, Node.js, Express.js, 
-          and MongoDB.
+          1.5+ years of experience building production-grade applications for banking clients. 
+          I turn ideas into scalable software with expertise in Node.js, React, and Angular, 
+          alongside AI-driven product development.
         </motion.p>
 
         <motion.div className="hero-buttons" variants={itemVariants}>
           <motion.a
-            href="#projects"
+            href="https://drive.google.com/file/d/1tzcR--e-OuDyJ3sPvKiOPeA_dqxhI8yC/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary"
             whileHover={{ 
               scale: 1.03,
@@ -79,9 +81,9 @@ export default function Hero() {
             }}
             whileTap={{ scale: 0.98 }}
           >
-            <span>View Projects</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
+            <span>Download Resume</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginLeft: '8px', width: '20px', height: '20px' }}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
           </motion.a>
 

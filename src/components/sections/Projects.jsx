@@ -4,39 +4,30 @@ import { useRef, useState } from 'react'
 const projects = [
   {
     id: 1,
-    title: 'Portfolio Website',
-    description: 'Responsive Angular portfolio with NGX UI components, modern animations, routing, and lazy loading. Cross-device optimized and mobile-friendly.',
-    tags: ['Angular', 'TypeScript', 'NGX UI'],
-    year: '2025',
-    link: null,
+    title: 'TaskFlowPro',
+    description: 'Event-driven task management ecosystem with background job queues, RBAC, and secure REST APIs via Render with JWT authentication. Response times optimized to under 150ms.',
+    tags: ['Angular', 'Node.js', 'RabbitMQ', 'MongoDB'],
+    year: '2026',
+    link: 'https://taskflow-repomangerfrontend-z3a4.vercel.app/#/',
     color: '#6366f1'
   },
   {
     id: 2,
-    title: 'Company Website (MEAN)',
-    description: 'Single Page Application built with MEAN stack. Features optimized performance with lazy loading and responsive design.',
-    tags: ['MongoDB', 'Express', 'Angular', 'Node.js'],
-    year: '2024',
-    link: 'https://suraj-9430.github.io/CompanySite/',
+    title: 'Personal Portfolio',
+    description: 'Responsive web application showcasing skills and projects. Integrated lazy loading and streamlined routing to reduce initial load time by 35%.',
+    tags: ['Angular', 'TypeScript', 'Bootstrap'],
+    year: '2025',
+    link: null,
     color: '#8b5cf6'
   },
   {
     id: 3,
     title: 'Brain Tumor Detection',
-    description: 'Automated MRI analysis using deep learning with VGG-16 architecture. Published a research paper based on this project.',
-    tags: ['Python', 'Flask', 'Deep Learning', 'VGG-16'],
-    year: '2023',
+    description: 'Deep learning model using VGG-16 to detect brain tumors from MRI images. Implemented Flask backend, improving data processing by 35%. Published research paper.',
+    tags: ['Python', 'Deep Learning', 'VGG-16', 'Flask'],
+    year: '2024',
     link: 'https://github.com/suraj-9430/Brain-tumor-Detection-System-VGG-16',
     color: '#a78bfa'
-  },
-  {
-    id: 4,
-    title: 'Face Recognition Attendance',
-    description: 'Real-time facial recognition attendance system with Firebase-based secure data management and automated tracking.',
-    tags: ['Python', 'OpenCV', 'Firebase'],
-    year: '2023',
-    link: null,
-    color: '#818cf8'
   }
 ]
 

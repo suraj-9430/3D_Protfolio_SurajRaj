@@ -18,7 +18,7 @@ export default function Footer() {
         animate={isInView ? { opacity: 1 } : { opacity: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        Developed by Suraj Raj &copy; 2025
+        Developed by Suraj Raj &copy; 2026
       </motion.p>
       
       <div className="footer-links">

@@ -2,10 +2,10 @@ import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 
 const skills = [
-  { title: 'Frontend', description: 'Angular, React, TypeScript' },
-  { title: 'Backend', description: 'Node.js, Express.js, .NET' },
-  { title: 'Database', description: 'MongoDB, Mongoose, Firebase' },
-  { title: 'AI & ML', description: 'Python, Deep Learning, OpenCV' }
+  { title: 'Frontend', description: 'Angular, React, HTML/CSS, Bootstrap' },
+  { title: 'Backend', description: 'Node.js, Express.js, RabbitMQ, REST' },
+  { title: 'Languages', description: 'JavaScript, TypeScript, Python' },
+  { title: 'Databases & Tools', description: 'MongoDB, MySQL, Oracle, Git' }
 ]
 
 export default function About() {
@@ -72,14 +72,14 @@ export default function About() {
             Building <span>scalable</span> software solutions
           </motion.h2>
           <motion.p variants={itemVariants}>
-            Self-taught Full Stack Engineer (MEAN) with 1+ year of industry experience, 
-            skilled in building scalable, responsive web applications. Currently working 
+            Full Stack Developer with 1 year and 7 months of hands-on experience building and 
+            deploying production-grade applications for banking clients. Currently working 
             as a Software Developer at Aurionpro Solutions.
           </motion.p>
           <motion.p variants={itemVariants}>
-            Proficient in Angular, Node.js, Express.js, and MongoDB, with a strong 
-            foundation in Java, Python, and Machine Learning for delivering intelligent, 
-            data-driven solutions that solve real-world problems.
+            Specialised in Node.js backend development, RESTful API design, and frontend 
+            development using React and Angular. Currently contributing to AI-driven product 
+            development and scalable banking modules.
           </motion.p>
         </motion.div>
 

@@ -534,11 +534,11 @@ export default function Scene() {
 
       {/* Sparkles */}
       <Sparkles
-        count={100}
-        scale={30}
-        size={1.8}
-        speed={0.25}
-        opacity={0.5}
+        count={150}
+        scale={35}
+        size={2}
+        speed={0.3}
+        opacity={0.6}
         color="#8b5cf6"
       />
 
@@ -576,7 +576,7 @@ export default function Scene() {
       <ReactiveRings mouse={mouse} />
       <OrbitalSpheres mouse={mouse} />
       <FloatingShapes mouse={mouse} />
-      <ReactiveParticles mouse={mouse} count={100} />
+      <ReactiveParticles mouse={mouse} count={150} />
 
       {/* Post Processing */}
       <EffectComposer multisampling={4}>

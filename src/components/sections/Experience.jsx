@@ -6,17 +6,9 @@ const experiences = [
     id: 1,
     company: 'Aurionpro Solutions',
     role: 'Software Developer',
-    period: 'Oct 2025 - Present',
-    description: 'Developed and optimized scalable full stack web applications using Angular, Node.js, Express.js, and MongoDB. Implemented modular front-end architecture enabling clean code and maintainability, while building secure and efficient backend APIs.',
+    period: '2024 - Present',
+    description: 'Contributing to Trade Finance 2.0 with React, Node.js, and PostgreSQL. Engineered financial modules for Remittance and Forward Contracts serving SBI and Punjab & Sind Bank. Developed a secure Audit Trail API and live Forex Exchange master modules.',
     note: 'Acquired Fintra Software Solutions'
-  },
-  {
-    id: 2,
-    company: 'Fintra Software',
-    role: 'Junior Software Developer',
-    period: 'Oct 2024 - Sep 2025',
-    description: 'Worked on Angular and Node.js-based applications focusing on UI performance and stability. Applied routing, data binding, and component-based architecture. Assisted in debugging, feature development, and deployment support.',
-    note: null
   }
 ]
 
